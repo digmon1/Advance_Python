@@ -1,0 +1,8 @@
+f=open("abc.txt",'w+')
+print(f'Name of the file: {f.name}')
+print(f'Name of the file: {f.mode}')
+print(f'File in write mode: {f.writable()}')
+print(f'File in read mode: {f.readable()}')
+print(f'Is file closed: {f.closed}')
+f.close()
+print(f'Is file closed: {f.closed}')

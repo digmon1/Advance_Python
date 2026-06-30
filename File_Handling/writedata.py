@@ -1,0 +1,7 @@
+name=input("Enter you name:")
+age=int(input("Enter your age:"))
+fees=float(input("Enter your semester fees:"))
+f=open('xyz.txt','w')
+f.write(f'{name} {age} {fees}')
+f.close()
+print("Data written successfully!!")
