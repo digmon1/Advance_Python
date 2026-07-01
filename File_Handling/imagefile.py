@@ -1,0 +1,6 @@
+f=open("Dragon1.jpg","rb")
+f1=open('sanjay.jpg','wb')
+data=f.read()
+f1.write(data)
+f.close()
+f1.close()
