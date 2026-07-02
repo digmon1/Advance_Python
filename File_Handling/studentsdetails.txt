@@ -1,0 +1,4 @@
+1001|Sanjay Kumar Shrestha|19|sanjay@gmail.com|9823658989|25000.0 
+1002| Rijan Pariyar|18|rijan @gmail.com|9856412301|120000.0 
+1003| Ajay Shrestha|20|ajay@gmail.com|9853245786| 56888.0 
+1004|Subodh|19|su@gmail.com|987564123|256476
