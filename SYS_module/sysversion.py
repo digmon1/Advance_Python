@@ -1,0 +1,11 @@
+import sys
+print()
+print(sys.version)
+print(sys.version_info)
+print()
+print("__"*20)
+print("Major Version :", sys.version_info.major)
+print("Minor Version :", sys.version_info.minor)
+print("Micro Version :", sys.version_info.micro)
+print()
+print("__"*20)
