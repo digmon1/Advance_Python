@@ -1,0 +1,27 @@
+class Parent:
+    def __init__(self, pname, age, salary):
+        self.pname = pname
+        self.age = age
+        self.salary = salary
+
+    def __str__(self):
+        return f'''Parent Name: {self.pname} 0
+        Parent Age: {self.age} 
+        Parent Salary: {self.salary} \n'''
+    
+
+class Child(Parent):
+    def __init__(self, cname, id, fees, pname, age, salary):
+        super().__init__(pname, age, salary)
+        self.cname = cname
+        self.id = id
+        self.fees = fees
+
+    def __str__(self):
+        super().__str__()
+        print(super().__str__())
+        return f'Child Name: {self.cname} \nChild ID: {self.id} \nChild Fees: {self.fees}'
+
+
+c = Child("PCPS", 12, 900000,"LBEF College", 27, 4000000000)
+print(c)
